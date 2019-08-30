@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono|Inconsolata|Londrina+Outline&display=swap");
+
+.contact-header {
+  font-family: "Londrina Outline", cursive;
+  font-size: 3em;
+  letter-spacing: 0.3em;
+  color: #c4bbf0;
+  font-weight: bold;
+  padding-bottom: 0.6em;
+  margin-top: -50px;
+}
+
+.puggo {
+  margin-bottom: -30px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.contact-description {
+  font-family: "Inconsolata", sans-serif;
+  color: #ffffff;
+}
+
+.contact-info {
+  margin-top: 2em;
+  line-height: 1.5em;
+}
+
+.form-submission {
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 10px dotted white; */
+  padding: 0.2em;
+  margin-left: 5em;
+}
+
+.form-submission input[type="text"],
+input[type="email"],
+textarea[name="message"] {
+  margin-top: 2em;
+  margin-left: 0.85em;
+  background-color: transparent;
+  color: white;
+  font-family: "Inconsolata", sans-serif;
+  font-size: 1em;
+  height: 30px;
+}
+
+.form-buttons {
+  padding: 0.15em 3em;
+  margin: 0 0.75em 0.5em 0;
+  border: 0.16em solid #ffffff;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Inconsolata", sans-serif;
+  font-size: 0.93em;
+  font-weight: 300;
+  text-align: center;
+}
+
+.form-buttons:hover {
+  background-color: #c4bbf0;
+  /* border-color: white; */
+}

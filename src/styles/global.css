@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono|Inconsolata|Londrina+Outline&display=swap");
+
+html {
+  background-color: #363b4e;
+  color: #ffffff;
+  /* font-family: "Inconsolata", sans-serif; */
+}
+
+.main-nav {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2.5em;
+}
+
+ul {
+  list-style-type: none;
+  word-spacing: 1.5em;
+}
+
+.right-links li {
+  display: inline-block;
+  text-transform: lowercase;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 1.2em;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #c4bbf0;
+}
+
+.name-header {
+  font-family: "Londrina Outline", cursive;
+  font-size: 6em;
+  letter-spacing: 0.3em;
+  font-weight: bold;
+  color: #c4bbf0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.5em;
+}
+
+.peace-sign {
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+  transform: rotate(12deg);
+}
+
+.three-lines {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  margin-right: 25px;
+  font-family: "Inconsolata", sans-serif;
+  color: #eeeeee;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  right: 3em;
+  font-family: "Inconsolata", sans-serif;
+  font-size: 0.85em;
+  color: #ffffff;
+}

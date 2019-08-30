@@ -9,8 +9,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
-import "./layout.css"
+import icon from "../images/sailorMoonIcon.svg"
+import "../styles/global.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -25,21 +25,28 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0px 1.0875rem 1.45rem`,
-          paddingTop: 0,
+          maxWidth: 1060,
+          padding: `1.2em 1.0875rem 1.45rem`,
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        <div className="footer">
+          <footer>
+            made with{" "}
+            <span role="img" aria-label="dumpling">
+              🥟
+            </span>{" "}
+            and{" "}
+            <span role="img" aria-label="cupid heart">
+              💘
+            </span>
+            . © {new Date().getFullYear()}
+          </footer>
+        </div>
       </div>
     </>
   )

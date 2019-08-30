@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono|Inconsolata|Londrina+Outline&display=swap");
+
+html .stats-header {
+  font-family: "Londrina Outline", cursive;
+  font-size: 3em;
+  letter-spacing: 0.3em;
+  color: #c4bbf0;
+  font-weight: bold;
+  padding-bottom: 0.6em;
+  margin-top: -50px;
+}
+
+p {
+  color: #ffffff;
+  font-family: "Inconsolata", sans-serif;
+  font-size: 16px;
+  /* text-align: justify;
+  text-justify: inter-character; */
+}
+
+.emphasis {
+  font-weight: 800;
+  font-size: 20px;
+  font-family: "Inconsolata", sans-serif;
+  color: #c4bbf0;
+  text-transform: uppercase;
+  border-bottom: 1px dotted #c4bbf0;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  border: 3px solid #c4bbf0;
+  height: 250px;
+  width: 250px;
+}
+
+.tech-side {
+  padding: 0.2em;
+  margin-left: 2em;
+}
+
+.exp-img {
+  height: 70px;
+  width: 70px;
+}
+
+.icon-img {
+  height: 35px;
+  width: 35px;
+}
