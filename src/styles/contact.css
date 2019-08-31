@@ -11,7 +11,8 @@
 }
 
 .puggo {
-  margin-bottom: -30px;
+  transform: rotate(-5deg);
+  margin-bottom: -0.5rem;
 }
 
 .row {
@@ -43,36 +44,69 @@
   display: flex;
   justify-content: space-evenly;
   /* border: 10px dotted white; */
-  padding: 0.2em;
+  /* padding: 0.2em; */
   margin-left: 5em;
 }
 
 .form-submission input[type="text"],
-input[type="email"],
-textarea[name="message"] {
-  margin-top: 2em;
-  margin-left: 0.85em;
+input[type="email"] {
+  margin-top: 1.5em;
+  margin-left: 0.465em;
   background-color: transparent;
   color: white;
   font-family: "Inconsolata", sans-serif;
-  font-size: 1em;
-  height: 30px;
+  /* height: 30px; */
+  border-radius: 4px;
+}
+
+.form-submission textarea[name="message"] {
+  background-color: transparent;
+  width: 500px;
+  height: 190px;
+  color: white;
+  border-radius: 4px;
 }
 
 .form-buttons {
   padding: 0.15em 3em;
   margin: 0 0.75em 0.5em 0;
-  border: 0.16em solid #ffffff;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
+  border-radius: 4px;
+  outline: 0;
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Inconsolata", sans-serif;
   font-size: 0.93em;
   font-weight: 300;
   text-align: center;
+  transition: 0.08s ease-in;
+  -o-transition: 0.08s ease-in;
+  -ms-transition: 0.08s ease-in;
+  -moz-transition: 0.08s ease-in;
+  -webkit-transition: 0.08s ease-in;
 }
 
 .form-buttons:hover {
-  background-color: #c4bbf0;
-  /* border-color: white; */
+  color: #c4bbf0;
+}
+
+.form-buttons:before {
+  content: "";
+  position: absolute;
+  /* background: #c4bbf0; */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  -webkit-transition: top 0.09s ease-in;
+}
+
+.form-buttons:hover:before {
+  top: 0;
+}
+
+.icon-svg {
+  height: 50px;
+  width: 50px;
 }

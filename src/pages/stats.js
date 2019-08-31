@@ -20,7 +20,7 @@ const about = () => (
         <span role="img" aria-label="waving-hi">
           👋🏼
         </span>{" "}
-        get to know me:
+        get to know me
       </div>
       <div className="row">
         <div className="column">

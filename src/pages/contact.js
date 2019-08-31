@@ -15,10 +15,9 @@ const ContactPage = () => (
     <Layout>
       <SEO title="Contact" />
       <div className="contact-header">
-        contact me!{" "}
-        <span className="puggo">
-          <img src={puggo} />
-        </span>
+        contact me! {/* <span className="puggo"> */}
+        <img src={puggo} className="puggo" />
+        {/* </span> */}
       </div>
       <div className="contact-description">
         <div className="row">
@@ -38,32 +37,46 @@ const ContactPage = () => (
               <img
                 src={octocat}
                 alt="octopus and cat cartoon github character"
-                className="exp-img"
+                className="icon-svg"
               />
-            </a>{" "}
+            </a>
             / LINKEDIN / RESUME / INSTAGRAM?
           </div>
           <div className="column">
             <div className="form-submission">
               <form method="post" action="#">
                 <label>
-                  NAME
-                  <input type="text" name="name" id="name" />
+                  <span className="emphasis">NAME</span>
+                  <input type="text" name="name" id="name" placeholder="name" />
                 </label>
                 <span> </span>
                 <label>
-                  EMAIL
-                  <input type="email" name="email" id="email" />
+                  <span className="emphasis">EMAIL</span>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="email"
+                  />
                 </label>
                 <p />
                 <label>
-                  SUBJECT
-                  <input type="text" name="subject" id="subject" />
+                  <span className="emphasis">SUBJECT</span>
+                  <input
+                    type="text"
+                    name="subject"
+                    id="subject"
+                    placeholder="subject"
+                  />
                 </label>
                 <p></p>
                 <label>
-                  MESSAGE
-                  <textarea name="message" id="message" rows="10" />
+                  <span className="emphasis">MESSAGE</span>{" "}
+                  <textarea
+                    name="message"
+                    id="message"
+                    placeholder="drop a line or a job offer"
+                  />
                 </label>
                 <p />
                 <button type="submit" className="form-buttons">

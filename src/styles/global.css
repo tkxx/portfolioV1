@@ -32,6 +32,7 @@ a {
 a:hover {
   font-weight: bold;
   color: #c4bbf0;
+  letter-spacing: 1.5px;
 }
 
 .name-header {
