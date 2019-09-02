@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono|Inconsolata|Londrina+Outline&display=swap");
 
-#column {
+body {
   font-family: "Inconsolata", sans-serif;
+  color: white;
 }

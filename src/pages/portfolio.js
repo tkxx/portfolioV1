@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Navbar from "../components/navbar"
 import SEO from "../components/seo"
 
+import "../styles/portfolio.css"
 import "../styles/global.css"
 
 const portfolio = () => (
