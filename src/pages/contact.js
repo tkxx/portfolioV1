@@ -15,9 +15,8 @@ const ContactPage = () => (
     <Layout>
       <SEO title="Contact" />
       <div className="contact-header">
-        contact me! {/* <span className="puggo"> */}
+        contact me!
         <img src={puggo} className="puggo" />
-        {/* </span> */}
       </div>
       <div className="contact-description">
         <div className="row">
@@ -33,7 +32,7 @@ const ContactPage = () => (
               . i look forward to hearing from you!
             </div>
             <p />
-            <a href="https://github.com/tkxx">
+            <a href="https://github.com/tkxx" target="_blank">
               <img
                 src={octocat}
                 alt="octopus and cat cartoon github character"
@@ -59,7 +58,7 @@ const ContactPage = () => (
                     placeholder="email"
                   />
                 </label>
-                <p />
+                <p></p>
                 <label>
                   <span className="emphasis">SUBJECT</span>
                   <input

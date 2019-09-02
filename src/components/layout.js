@@ -9,7 +9,6 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import icon from "../images/sailorMoonIcon.svg"
 import "../styles/global.css"
 
 const Layout = ({ children }) => {
@@ -34,7 +33,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <div className="footer">
+        <div id="footer">
           <footer>
             made with{" "}
             <span role="img" aria-label="dumpling">
