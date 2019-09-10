@@ -18,29 +18,66 @@ const portfolio = () => (
         <div className="column">
           IMAGE
           <p />
-          <div className="emphasis">TITLE</div> /{" "}
-          <div className="emphasis">DESCRIPTION</div> /
-          <div className="emphasis">PROBLEMS</div> / what was it {"&"} how did
-          you overcome it
-          <div className="emphasis">TECH USED</div> [icons]
+          <div className="emphasis">TITLE</div>{" "}
+          <span className="portfolio-spans">Projectify</span>
+          <div className="emphasis">DESCRIPTION</div>{" "}
+          <span className="portfolio-spans">
+            Gamify your task management experience. Create new projects with
+            tasks to complete. Each completed task is worth 5 XP.
+          </span>
+          <div className="emphasis">STRUGGLES</div>{" "}
+          <span className="portfolio-spans">
+            Understanding and incorporating React Redux was the biggest hurdle
+            for this particular project. I eventually implemented Redux where
+            each time a task was completed, the user's coins would appear in
+            their moneybag.{" "}
+          </span>
+          <div className="emphasis">TECH USED</div>{" "}
+          <span className="portfolio-spans">
+            HTML, CSS, React JS, React Redux, React-Bootstrap, Express, Node JS,
+            PostgreSQL
+          </span>
         </div>
         <div className="column">
           IMAGE
           <p />
-          <div className="emphasis">TITLE</div> /{" "}
-          <div className="emphasis">DESCRIPTION</div> /
-          <div className="emphasis">PROBLEMS</div> / what was it {"&"} how did
-          you overcome it
-          <div className="emphasis">TECH USED</div> [icons]
+          <div className="emphasis">TITLE</div>{" "}
+          <span className="portfolio-spans">Portfolio Site: V1</span>
+          <div className="emphasis">DESCRIPTION</div>
+          <span className="portfolio-spans">
+            First iteration of my portfolio site.
+          </span>
+          <div className="emphasis">STRUGGLES</div>
+          <span className="portfolio-spans">
+            There was a time-crunch: I had to learn GatsbyJS while also working
+            on my group project.{" "}
+          </span>
+          <div className="emphasis">TECH USED</div>
+          <span className="portfolio-spans">
+            HTML, CSS, React JS, Gatsby JS
+          </span>
         </div>
         <div className="column">
           IMAGE
           <p />
-          <div className="emphasis">TITLE</div> /{" "}
-          <div className="emphasis">DESCRIPTION</div> /
-          <div className="emphasis">PROBLEMS</div> / what was it {"&"} how did
-          you overcome it
-          <div className="emphasis">TECH USED</div> [icons]
+          <div className="emphasis">TITLE</div>{" "}
+          <span className="portfolio-spans">Beatzz</span>
+          <div className="emphasis">DESCRIPTION</div>
+          <span className="portfolio-spans">
+            An e-commerce marketplace for producers to sell their beats and
+            vocal artists to purchase them.
+          </span>
+          <div className="emphasis">STRUGGLES</div>
+          <span className="portfolio-spans">
+            Amazon S3 continuously blocked the sample beats we were uploading.
+            At the last minute, I had to adjust our media queries as we were
+            presenting our project on a much larger screen.{" "}
+          </span>
+          <div className="emphasis">TECH USED</div>
+          <span className="portfolio-spans">
+            HTML, CSS, React JS, React Redux, React Hooks, Amazon S3, ChartJS,
+            Sass, React-Bootstrap, Express, Node JS, PostgreSQL
+          </span>
         </div>
       </div>
     </Layout>

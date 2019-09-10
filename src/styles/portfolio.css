@@ -4,3 +4,12 @@ body {
   font-family: "Inconsolata", sans-serif;
   color: white;
 }
+
+.portfolio-spans {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.column {
+  margin: 0 50px 50px 0;
+}

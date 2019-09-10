@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Navbar from "../components/navbar"
 import puggo from "../images/puggo.svg"
 import octocat from "../images/OctocatGH.png"
+import downloadResume from "../images/downloadResume.png"
 import SEO from "../components/seo"
 
 import "../styles/contact.css"
@@ -32,14 +33,16 @@ const ContactPage = () => (
               . i look forward to hearing from you!
             </div>
             <p />
-            <a href="https://github.com/tkxx" target="_blank">
-              <img
-                src={octocat}
-                alt="octopus and cat cartoon github character"
-                className="icon-svg"
-              />
-            </a>
-            / LINKEDIN / RESUME / INSTAGRAM?
+            <div>
+              <a href="https://github.com/tkxx" target="_blank">
+                <img
+                  src={octocat}
+                  alt="octopus and cat cartoon github character"
+                  className="icon-svg"
+                />
+              </a>
+              || LINKEDIN || <img src={downloadResume} id="contact-resume" />
+            </div>
           </div>
           <div className="column">
             <div className="form-submission">

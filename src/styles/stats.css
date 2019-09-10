@@ -40,12 +40,43 @@ p {
   margin-left: 2em;
 }
 
-.exp-img {
-  height: 70px;
-  width: 70px;
+.icon-img {
+  height: 35px;
+  width: 35px;
+  margin-bottom: -5px !important;
 }
 
-.icon-img {
-  height: 25px;
-  width: 25px;
+.tech-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.icon-resize {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 0 !important;
+}
+
+.tech-skill {
+  display: block;
+  text-align: center;
+}
+
+.project-descriptions {
+  word-spacing: 0 !important;
+}
+
+.work-experience-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 200px;
 }

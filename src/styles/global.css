@@ -65,9 +65,9 @@ a:hover {
 }
 
 #footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  height: 40px;
+  /* height: 0px; */
   right: 3em;
   font-family: "Inconsolata", sans-serif;
   font-size: 0.85em;

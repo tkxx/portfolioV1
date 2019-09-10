@@ -109,4 +109,11 @@ input[type="email"] {
 .icon-svg {
   height: 50px;
   width: 50px;
+  margin-bottom: 0 !important;
+}
+
+#contact-resume {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 0 !important;
 }
