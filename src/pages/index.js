@@ -13,9 +13,7 @@ const IndexPage = () => (
       <div className="name-header">
         tabitha sin <img src={peace} alt-text="peace" className="peace-sign" />
       </div>
-      <div className="three-lines">
-        web developer. voracious learner. french fry connoisseur.
-      </div>
+      <div className="three-lines">web developer. voracious learner.</div>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         {/* <Image /> */}
       </div>
